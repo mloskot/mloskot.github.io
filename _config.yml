@@ -1,12 +1,22 @@
-# Site settings
-title: Mateusz Łoskot
+# Personal
+name: &n Mateusz Łoskot 
+username: &un mloskot
 email: mateusz@loskot.net
+job: Cadcorp
+job_url: http://cadcorp.com
+job_title: Senior Software Engineer
+osgeo: OSGeo
+osgeo_url: http://osgeo.org
+osgeo_title: Charter Member
+foss_title: Open Source Cowboy
+
+# Site settings
+title: *n
+tagline: hacking on, working out, living up
 description: > # this means to ignore newlines until "baseurl:"
    "My personal website on hacking on, working out and living up"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mloskot.github.io" # the base hostname & protocol for your site
-twitter_username: mloskot
-github_username:  mloskot
 
 # Build settings
 markdown: kramdown
