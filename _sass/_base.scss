@@ -12,6 +12,10 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
+    width: $content-width;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
     font-family: $base-font-family;
     font-size: $base-font-size;
     font-weight: 100%;
